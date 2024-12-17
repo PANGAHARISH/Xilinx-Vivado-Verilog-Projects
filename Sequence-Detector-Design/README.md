@@ -21,7 +21,7 @@ Sequence-Detector/
 ├── testbench/                     # Testbench files
 │   ├── seq_1010_mealy_tb.v        # Testbench for the Mealy machine
 │   ├── seq_1010_moore_tb.v        # Testbench for the Moore machine
-├── Sequence-Detector-Design/      # Folder containing waveform images
+├── Waveforms/      # Folder containing waveform images
 │   ├── Mealy_Non_Overlapping.png  # Waveform for Mealy non-overlapping
 │   ├── Mealy_Overlapping.png      # Waveform for Mealy overlapping
 │   ├── Moore_Non_Overlapping.png  # Waveform for Moore non-overlapping
@@ -43,21 +43,21 @@ This is the testbench for simulating the Mealy machine sequence detector. It app
 This is the testbench for simulating the Moore machine sequence detector. It applies various input sequences to verify that the Moore machine correctly detects the sequence 1010. The testbench compares the expected output with the actual output and ensures that the design works correctly.
 ## Waveforms
 
-### Mealy Machine (Non-Overlapping Input)
+### Mealy Machine (Non-Overlapping Output)
 
-![Mealy Non-Overlapping](Sequence-Detector-Design/Mealy_Non_Overlapping.png)
+![Mealy Non-Overlapping](Mealy_Non_Overlapping.png)
 
-### Mealy Machine (Overlapping Input)
+### Mealy Machine (Overlapping Output)
 
 ![Mealy Overlapping](Mealy_Overlapping.png)
 
-### Moore Machine (Non-Overlapping Input)
+### Moore Machine (Non-Overlapping Output)
 
-![Moore Non-Overlapping](Sequence-Detector-Design/Moore_Non_Overlapping.png)
+![Moore Non-Overlapping](Moore_Non_Overlapping.png)
 
-### Moore Machine (Overlapping Input)
+### Moore Machine (Overlapping Output)
 
-![Moore Overlapping](Sequence-Detector-Design/Moore_Overlapping.png)
+![Moore Overlapping](Moore_Overlapping.png)
 
 ## Getting Started
 Prerequisites
