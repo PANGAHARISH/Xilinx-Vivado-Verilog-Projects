@@ -13,7 +13,6 @@ The **Sequence Detector** project is a digital design implemented using **Verilo
   
 ## File Structure
 
-
 ```plaintext
 Sequence-Detector/
 ├── design/                        # Verilog source files
@@ -22,15 +21,12 @@ Sequence-Detector/
 ├── testbench/                     # Testbench files
 │   ├── seq_1010_mealy_tb.v        # Testbench for the Mealy machine
 │   ├── seq_1010_moore_tb.v        # Testbench for the Moore machine
-├── waveforms/                     # Folder containing waveform images
+├── Sequence-Detector-Design/      # Folder containing waveform images
 │   ├── Mealy_Non_Overlapping.png  # Waveform for Mealy non-overlapping
 │   ├── Mealy_Overlapping.png      # Waveform for Mealy overlapping
 │   ├── Moore_Non_Overlapping.png  # Waveform for Moore non-overlapping
 │   ├── Moore_Overlapping.png      # Waveform for Moore overlapping
 └── README.md                      # Project documentation
-
-
-```
 ## Design Components
 ## 1. Mealy Machine (seq_1010_mealy.v)
 The Mealy machine implementation of the sequence detector generates an output based on both the current state and the input. It detects the sequence 1010, and the output is 1 when the sequence is detected and 0 otherwise. The output is immediately generated based on the current input and state.
