@@ -13,6 +13,7 @@ The **16-Bit RISC Processor** is a digital design project implemented using **Ve
 
 ## File Structure
 
+
 ```plaintext
 16-Bit-RISC-Processor/
 ├── design/                # Verilog source files
@@ -25,8 +26,11 @@ The **16-Bit RISC Processor** is a digital design project implemented using **Ve
 │   ├── main_test.v        # Top-level testbench for processor simulation
 │   ├── regfile_unittest.v # Unit test for the Register File
 │   ├── decoder_unitest.v  # Testbench for the Instruction Decoder
+├── waveforms/             # Waveform images
+│   ├── Main_test.png      # Waveform for main_test simulation
+│   ├── Reg_unit_test.png  # Waveform for reg_unit_test simulation
+│   ├── Instruction_Decoder_Unit_Test.png # Waveform for instruction decoder test
 └── README.md              # Project documentation
-```
 
 ## Design Components
 ## 1.ALU (Arithmetic Logic Unit) (alu.v):
@@ -53,6 +57,19 @@ A unit test specifically designed for testing the Register File module to ensure
 
 ## 3.decoder_unitest.v:
 A testbench for the Instruction Decoder to validate that instructions are decoded correctly and the control signals are properly generated.
+
+## Waveforms
+
+
+
+1. Main Test Simulation
+![Main](Main_test.png)
+
+2. Register Unit Test Simulation
+![Reg](Reg_unit_test.png)
+
+3. Instruction Decoder Unit Test Simulation
+![Instruct](Instruction_Decoder_Unit_Test.png)
 
 
 ## Getting Started
