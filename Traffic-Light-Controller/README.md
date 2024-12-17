@@ -15,12 +15,11 @@ The **Traffic Light Controller** is a digital design project implemented using *
 
 ```plaintext
 Traffic-Light-Controller/
-Traffic-Light-Controller-Design/
 ├── design/                      # Verilog source files
 │   ├── tlc_fsm.v                # FSM for the traffic light controller
 ├── testbench/                   # Testbench files
 │   ├── tlc_fsm_tb.v             # Testbench for the traffic light controller
-├── Waveforms/ # Folder containing waveform images
+├── Waveforms/                    # Folder containing waveform images
 │   ├── Traffic_Light_Controller_Waveform.png         # Waveform for the traffic light controller
 └── README.md                    # Project documentation
 ```
