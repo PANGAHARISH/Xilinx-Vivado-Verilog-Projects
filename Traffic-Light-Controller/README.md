@@ -71,7 +71,9 @@ Open Vivado and load the project.
 Set the simulation run options for the testbench file tlc_fsm_tb.v.
 Run the simulation and observe the waveform to verify the correct operation of the traffic light system.
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 
 ## Acknowledgments
 Special thanks to the mentors at Apsis Solutions for providing the opportunity to work on this project.
