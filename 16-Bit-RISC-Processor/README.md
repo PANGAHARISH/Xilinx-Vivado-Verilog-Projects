@@ -29,27 +29,27 @@ The **16-Bit RISC Processor** is a digital design project implemented using **Ve
 ```
 
 ## Design Components
-## ALU (Arithmetic Logic Unit) (alu.v):
+## 1.ALU (Arithmetic Logic Unit) (alu.v):
 The ALU performs basic arithmetic and logical operations such as addition, subtraction, AND, OR, etc. It operates on 16-bit inputs and outputs the result.
 
-##Control Unit (ctrl_unit.v):
+## 2.Control Unit (ctrl_unit.v):
 The Control Unit interprets the opcode from the instruction and generates the corresponding control signals for the processor components, guiding the execution flow.
 
- ## Instruction Decoder (inst_dec.v):
+ ## 3.Instruction Decoder (inst_dec.v):
 The Instruction Decoder decodes the incoming instruction and generates control signals for each part of the processor, directing data flow and operation execution.
 
-## Program Counter (PC) Unit (pc_unit.v):
+## 4.Program Counter (PC) Unit (pc_unit.v):
 The PC Unit manages the Program Counter, which stores the address of the next instruction to be executed. It is updated with each clock cycle.
 
-## Register File (reg_file.v):
+## 5.Register File (reg_file.v):
 The Register File stores data in a set of registers. It allows read and write access to the registers during instruction execution.
 
 ## Testbenches and Unit Tests
-## main_test.v:
+## 1.main_test.v:
 The top-level testbench that simulates the entire processor design, feeding it various instructions to verify the correct operation of all components.
 
-## regfile_unittest.v:
+## 2.regfile_unittest.v:
 A unit test specifically designed for testing the Register File module to ensure it can correctly store and retrieve data.
 
-## decoder_unitest.v:
+## 3.decoder_unitest.v:
 A testbench for the Instruction Decoder to validate that instructions are decoded correctly and the control signals are properly generated.
