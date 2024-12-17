@@ -31,7 +31,7 @@ The **16-Bit RISC Processor** is a digital design project implemented using **Ve
 │   ├── Reg_unit_test.png  # Waveform for reg_unit_test simulation
 │   ├── Instruction_Decoder_Unit_Test.png # Waveform for instruction decoder test
 └── README.md              # Project documentation
-
+```
 ## Design Components
 ## 1.ALU (Arithmetic Logic Unit) (alu.v):
 The ALU performs basic arithmetic and logical operations such as addition, subtraction, AND, OR, etc. It operates on 16-bit inputs and outputs the result.
