@@ -49,7 +49,7 @@ This is the testbench for simulating the Moore machine sequence detector. It app
 
 ### Mealy Machine (Overlapping Input)
 
-![Mealy Overlapping](Sequence-Detector-Design/Mealy_Overlapping.png)
+![Mealy Overlapping](Mealy_Overlapping.png)
 
 ### Moore Machine (Non-Overlapping Input)
 
