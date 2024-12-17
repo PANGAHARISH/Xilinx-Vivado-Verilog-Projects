@@ -88,7 +88,9 @@ Open Vivado and load the project.
 Set the simulation run options for the testbench files seq_1010_mealy_tb.v (for Mealy) and seq_1010_moore_tb.v (for Moore).
 Run the simulations and observe the waveform to verify that both sequence detectors work as expected for their respective FSMs.
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 
 ## Acknowledgments
 Special thanks to the mentors at Apsis Solutions for providing the opportunity to work on this project.
