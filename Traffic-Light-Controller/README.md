@@ -15,11 +15,14 @@ The **Traffic Light Controller** is a digital design project implemented using *
 
 ```plaintext
 Traffic-Light-Controller/
-├── design/                # Verilog source files
-│   ├── tlc_fsm.v          # Finite State Machine for traffic light control
-├── testbench/             # Testbench files
-│   ├── tlc_fsm_tb.v       # Testbench for simulating the Traffic Light Controller
-└── README.md              # Project documentation
+Traffic-Light-Controller-Design/
+├── design/                      # Verilog source files
+│   ├── tlc_fsm.v                # FSM for the traffic light controller
+├── testbench/                   # Testbench files
+│   ├── tlc_fsm_tb.v             # Testbench for the traffic light controller
+├── Waveforms/ # Folder containing waveform images
+│   ├── Traffic Light Controller Waveform.png         # Waveform for the traffic light controller
+└── README.md                    # Project documentation
 ```
 
 ## Design Components
@@ -34,6 +37,10 @@ The FSM transitions between these states based on a clock signal, simulating the
 ## Testbenches
 1. tlc_fsm_tb.v
 This testbench simulates the Traffic Light Controller FSM, applying clock signals to verify the correctness of the FSM's state transitions. It tests whether the traffic lights change between Green, Yellow, and Red as expected.
+
+## Waveforms
+
+![Traffic Light Controller Waveform](Traffic Light Controller Waveform.png)
 
 ## Getting Started
 Prerequisites
