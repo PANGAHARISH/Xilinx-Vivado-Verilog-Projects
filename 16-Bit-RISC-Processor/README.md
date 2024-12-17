@@ -103,7 +103,9 @@ Set the simulation run options for the testbench file main_test.v.
 Run the simulation and observe the waveforms to verify that the processor performs as expected.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 
 ## Acknowledgments
 Special thanks to the mentors at Apsis Solutions for providing the opportunity to work on this project.
