@@ -26,6 +26,8 @@ The **16-Bit RISC Processor** is a digital design project implemented using **Ve
 │   ├── regfile_unittest.v # Unit test for the Register File
 │   ├── decoder_unitest.v  # Testbench for the Instruction Decoder
 └── README.md              # Project documentation
+
+
 Description
 Design Components
 ALU (Arithmetic Logic Unit) (alu.v):
@@ -61,13 +63,11 @@ A compatible FPGA board (optional for hardware implementation).
 Installation
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/yourusername/Xilinx-Vivado-Verilog-Projects.git
 Navigate to the project folder:
 
-bash
-Copy code
+
 cd 16-Bit-RISC-Processor
 Open the project in Xilinx Vivado:
 
