@@ -42,13 +42,22 @@ This is the testbench for simulating the Mealy machine sequence detector. It app
 ## 2. seq_1010_moore_tb.v
 This is the testbench for simulating the Moore machine sequence detector. It applies various input sequences to verify that the Moore machine correctly detects the sequence 1010. The testbench compares the expected output with the actual output and ensures that the design works correctly.
 ## Waveforms
-Mealy Machine (Non-Overlapping Input)
 
-Mealy Machine (Overlapping Input)
+### Mealy Machine (Non-Overlapping Input)
 
-Moore Machine (Non-Overlapping Input)
+![Mealy Non-Overlapping](Sequence-Detector-Design/Mealy_Non_Overlapping.png)
 
-Moore Machine (Overlapping Input)
+### Mealy Machine (Overlapping Input)
+
+![Mealy Overlapping](Sequence-Detector-Design/Mealy_Overlapping.png)
+
+### Moore Machine (Non-Overlapping Input)
+
+![Moore Non-Overlapping](Sequence-Detector-Design/Moore_Non_Overlapping.png)
+
+### Moore Machine (Overlapping Input)
+
+![Moore Overlapping](Sequence-Detector-Design/Moore_Overlapping.png)
 
 ## Getting Started
 Prerequisites
