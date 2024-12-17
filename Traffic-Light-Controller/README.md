@@ -40,7 +40,7 @@ This testbench simulates the Traffic Light Controller FSM, applying clock signal
 
 ## Waveforms
 
-![Traffic Light Controller Waveform](Traffic Light Controller Waveform.png)
+![Traffic Light Controller Waveform](Traffic_Light_Controller_Waveform.png)
 
 ## Getting Started
 Prerequisites
