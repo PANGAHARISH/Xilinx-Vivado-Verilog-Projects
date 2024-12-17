@@ -1,47 +1,72 @@
 # Traffic Light Controller
 
 ## Overview
-This project implements a **Traffic Light Controller** using Verilog HDL. The design uses both **Mealy** and **Moore state machines** to control traffic light signals efficiently.
+
+The **Traffic Light Controller** is a digital design project implemented using **Verilog HDL**. It simulates a traffic light system for controlling the traffic flow at an intersection. The system operates on a simple finite state machine (FSM) that transitions through states such as **Green**, **Yellow**, and **Red** for the traffic lights, ensuring orderly traffic movement.
 
 ## Features
-- State machine-based design (Mealy and Moore models).
-- Simulates traffic light operation for **Red**, **Yellow**, and **Green** lights.
-- Testbench to validate timing and transitions.
+
+- Traffic light system that handles 4 traffic directions.
+- Finite State Machine (FSM) for state transitions (Green, Yellow, Red).
+- Designed using **Verilog HDL** for simulation and synthesis.
+- Testbenches provided for simulation and validation.
 
 ## File Structure
+
+```plaintext
 Traffic-Light-Controller/
-├── src/                      # Verilog source files
-│   ├── traffic_light_mealy.v # Mealy state machine implementation
-│   ├── traffic_light_moore.v # Moore state machine implementation
-│   └── traffic_light_top.v   # Top-level design
-├── tb/                       # Testbench files
-│   └── traffic_light_tb.v    # Testbench for verification
-├── constraints/              # Xilinx constraints file (.xdc)
-├── sim/                      # Simulation results (waveforms/logs)
-└── README.md                 # Project documentation
+├── design/                # Verilog source files
+│   ├── tlc_fsm.v          # Finite State Machine for traffic light control
+├── testbench/             # Testbench files
+│   ├── tlc_fsm_tb.v       # Testbench for simulating the Traffic Light Controller
+└── README.md              # Project documentation
+```
 
+## Design Components
+1. Finite State Machine (FSM) (tlc_fsm.v)
+The Finite State Machine (FSM) defines the logic for the traffic light system. The FSM cycles through three states:
 
+Green: The light is green, allowing vehicles to pass.
+Yellow: The light is yellow, indicating a change to red.
+Red: The light is red, stopping vehicles.
+The FSM transitions between these states based on a clock signal, simulating the behavior of a traffic light system.
 
-## Tools Used
-- **Design**: Xilinx Vivado
-- **Language**: Verilog HDL
-- **Simulation**: Vivado Simulator
+## Testbenches
+1. tlc_fsm_tb.v
+This testbench simulates the Traffic Light Controller FSM, applying clock signals to verify the correctness of the FSM's state transitions. It tests whether the traffic lights change between Green, Yellow, and Red as expected.
 
-## How to Run
-1. Open **Xilinx Vivado** and create a new project.
-2. Import the Verilog files from the `src/` directory.
-3. Add the testbench file from the `tb/` directory.
-4. Run simulation to verify traffic light behavior.
+## Getting Started
+Prerequisites
+Xilinx Vivado or any Verilog simulator (for synthesis and simulation).
+Basic understanding of Verilog HDL.
+A compatible FPGA board (optional for hardware implementation).
 
-## State Machine Diagrams
-- **Mealy State Machine**: Outputs depend on the current state and inputs.  
-- **Moore State Machine**: Outputs depend only on the current state.  
+## Installation
+1.Clone the repository:
+```plaintext
+git clone https://github.com/PANGAHARISH/Xilinx-Vivado-Verilog-Projects.git
+```
+2.Navigate to the project folder:
+```plaintext
+cd Traffic-Light-Controller
+```
+3.Open the project in Xilinx Vivado:
 
-## Simulation Results
-Example waveform for traffic light sequence:  
-![Traffic Light Simulation](sim/traffic_light_waveform.png)
+Open Vivado and create a new project.
+Import the Verilog file tlc_fsm.v from the design/ folder into the Vivado project.
+4.Run the simulation:
+Open the tlc_fsm_tb.v testbench file in Vivado.
+Run a simulation to verify the functionality.
 
-## Author
-**Harish Panga**  
-Final-Year M.Tech, Communication Systems, IIT Roorkee
+## Running the Simulation
+To run a simulation:
 
+Open Vivado and load the project.
+Set the simulation run options for the testbench file tlc_fsm_tb.v.
+Run the simulation and observe the waveform to verify the correct operation of the traffic light system.
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+Special thanks to the mentors at Apsis Solutions for providing the opportunity to work on this project.
+Thanks to the open-source Verilog community for their contributions and resources.
