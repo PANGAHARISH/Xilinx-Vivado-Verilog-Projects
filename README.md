@@ -24,8 +24,10 @@ This repository contains Verilog HDL projects implemented and verified using Xil
 ## Tools Used
 - Xilinx Vivado
 - Verilog HDL
-- ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 
 ## Author
 **Harish Panga**  
