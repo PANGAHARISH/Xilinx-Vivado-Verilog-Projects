@@ -12,6 +12,7 @@ The **16-Bit RISC Processor** is a digital design project implemented using **Ve
 - Designed using Verilog HDL for FPGA-based implementation (optional).
 
 ## File Structure
+```plaintext
 16-Bit-RISC-Processor/
 ├── design/                # Verilog source files
 │   ├── alu.v              # ALU module (Arithmetic Logic Unit)
