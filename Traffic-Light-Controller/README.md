@@ -21,7 +21,7 @@ Traffic-Light-Controller-Design/
 ├── testbench/                   # Testbench files
 │   ├── tlc_fsm_tb.v             # Testbench for the traffic light controller
 ├── Waveforms/ # Folder containing waveform images
-│   ├── Traffic Light Controller Waveform.png         # Waveform for the traffic light controller
+│   ├── Traffic_Light_Controller_Waveform.png         # Waveform for the traffic light controller
 └── README.md                    # Project documentation
 ```
 
