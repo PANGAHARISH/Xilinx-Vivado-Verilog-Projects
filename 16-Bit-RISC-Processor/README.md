@@ -26,7 +26,7 @@ The **16-Bit RISC Processor** is a digital design project implemented using **Ve
 │   ├── regfile_unittest.v # Unit test for the Register File
 │   ├── decoder_unitest.v  # Testbench for the Instruction Decoder
 └── README.md              # Project documentation
-'''
+```
 
 ## Design Components
 ## ALU (Arithmetic Logic Unit) (alu.v):
