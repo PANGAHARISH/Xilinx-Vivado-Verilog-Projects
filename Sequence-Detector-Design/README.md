@@ -27,6 +27,7 @@ Sequence-Detector/
 │   ├── Moore_Non_Overlapping.png  # Waveform for Moore non-overlapping
 │   ├── Moore_Overlapping.png      # Waveform for Moore overlapping
 └── README.md                      # Project documentation
+```
 ## Design Components
 ## 1. Mealy Machine (seq_1010_mealy.v)
 The Mealy machine implementation of the sequence detector generates an output based on both the current state and the input. It detects the sequence 1010, and the output is 1 when the sequence is detected and 0 otherwise. The output is immediately generated based on the current input and state.
