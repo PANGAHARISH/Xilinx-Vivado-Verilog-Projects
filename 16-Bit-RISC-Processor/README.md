@@ -53,3 +53,41 @@ A unit test specifically designed for testing the Register File module to ensure
 
 ## 3.decoder_unitest.v:
 A testbench for the Instruction Decoder to validate that instructions are decoded correctly and the control signals are properly generated.
+
+
+## Getting Started
+## Prerequisites
+Xilinx Vivado or any Verilog simulator (for synthesis and simulation).
+Basic understanding of Verilog HDL.
+A compatible FPGA board (optional for hardware implementation).
+## Installation
+1.Clone the repository:
+```plaintext
+git clone https://github.com/PANGAHARISH/Xilinx-Vivado-Verilog-Projects.git
+```
+2.Navigate to the project folder:
+
+```plaintext
+cd 16-Bit-RISC-Processor
+```
+
+3.Open the project in Xilinx Vivado:
+Open Vivado and create a new project.
+Import the Verilog files from the design/ folder into the Vivado project.
+
+4.Run the simulation:
+Open the main_test.v testbench file in Vivado and run a simulation to verify the functionality.
+
+## Running the Simulation
+To run a simulation:
+
+Open Vivado and load the project.
+Set the simulation run options for the testbench file main_test.v.
+Run the simulation and observe the waveforms to verify that the processor performs as expected.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+Special thanks to the mentors at Apsis Solutions for providing the opportunity to work on this project.
+Thanks to the open-source Verilog community for their contributions and resources.
