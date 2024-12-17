@@ -39,7 +39,7 @@ The FSM transitions between these states based on a clock signal, simulating the
 This testbench simulates the Traffic Light Controller FSM, applying clock signals to verify the correctness of the FSM's state transitions. It tests whether the traffic lights change between Green, Yellow, and Red as expected.
 
 ## Waveforms
-
+### Traffic Light Controller Waveform
 ![Traffic Light Controller Waveform](Traffic_Light_Controller_Waveform.png)
 
 ## Getting Started
